@@ -17,6 +17,7 @@
 3. flex-wrap
 4. justify-content
 5. align-items
+6. align-content
 
 # Properties For Children (Flex Item)
 1. order
@@ -33,11 +34,12 @@
 2.flex-direction: row | column | row-reverse | column-reverse;
 
 3. flex-wrap: nowrap | wrap | wrap-reverse;
-* will create 7 div to show wrap 
+* will create 6 div to show wrap 
 * wrap-reverse
 
 4. justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
 * use max-width, background-color in box in case of justify-content
+* space-around VS space-evenly
 
 5. align-items: stretch | flex-start | flex-end | center | baseline 
 * We have to specify a height and background color to the container
@@ -51,7 +53,10 @@
 
 * Child Properties
 1. flex-grow: <number> 
+  *It's a ratio to grow the item in the container.Like 12 column grid
 *Introduce 2nd container to explain grow
+*remove max-width from box class 
+* full screen
 
 2. order: <number>
 *order by default 0. Their default arrangement is based on their coding placement.
@@ -61,7 +66,7 @@
 3. flex-basis: <number>
 *main axis ->  width
 *cross axis -> height
-!flex basis vs min-width
+flex basis vs min-width
 
 -->
 

@@ -1,31 +1,40 @@
-.container1 div, .container2 div {
-  border: 1px solid #ccc;
+.container1 div, .container2 div{
+  border: 1px solid black;
   padding: 10px;
 }
 
-.container1{
-  display: flex;
+.container1 {
   background-color: #ccc;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
 }
-/* .box{
-  max-width: 100px;
-} */
+
+.box{
+  max-width: 200px;
+}
 
 .one{
-  flex-grow: 1;
   background-color: aqua;
+  flex-basis: 300px;
 }
 .two{
-  flex-grow: 4;
   background-color: white;
 }
 .three{
-  flex-grow: 1;
   background-color: orange;
 }
 
-/* .container2{
+/* .four{
+  background-color: red;
+}
+.five{
+  background-color: green;
+}
+.six{
+  background-color: fuchsia;
+} 
+
+.container2{
   display: flex;
 }
 
@@ -38,4 +47,4 @@
 }
 .nine{
   flex-grow: 1;
-} */
+}  */
