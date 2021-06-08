@@ -3,26 +3,39 @@
   padding: 10px;
 }
 
-.container1, .container2{
+.container1{
+  display: flex;
+  background-color: #ccc;
+  flex-wrap: wrap;
+}
+/* .box{
+  max-width: 100px;
+} */
+
+.one{
+  flex-grow: 1;
+  background-color: aqua;
+}
+.two{
+  flex-grow: 4;
+  background-color: white;
+}
+.three{
+  flex-grow: 1;
+  background-color: orange;
+}
+
+/* .container2{
   display: flex;
 }
 
-.box1{
+.seven{
   flex-grow: 1;
 }
-.box2{
+.eight{
   flex-grow: 1;
+  background-color: blue;
 }
-.box3{
-  flex-grow: 1;
-}
-
-/* .box4{
-  flex-grow: 1;
-}
-.box5{
-  flex-grow: 5;
-}
-.box6{
+.nine{
   flex-grow: 1;
 } */
