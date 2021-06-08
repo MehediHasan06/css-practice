@@ -1,0 +1,28 @@
+.container1 div, .container2 div {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.container1, .container2{
+  display: flex;
+}
+
+.box1{
+  flex-grow: 1;
+}
+.box2{
+  flex-grow: 1;
+}
+.box3{
+  flex-grow: 1;
+}
+
+/* .box4{
+  flex-grow: 1;
+}
+.box5{
+  flex-grow: 5;
+}
+.box6{
+  flex-grow: 1;
+} */
