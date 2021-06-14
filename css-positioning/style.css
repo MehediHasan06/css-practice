@@ -1,0 +1,25 @@
+.parent{
+  background-color: aqua;
+  width: 400px;
+  padding: 10px;
+  /* position: relative; */
+  /* height: 100vh; */
+}
+.one{
+  background-color: bisque;
+  /* position: relative;
+  top: 10px; */
+
+  /* position: absolute;
+  top: 0px; */
+
+  /* position: fixed;
+  top: 0px; */
+
+}
+.two{
+  background-color: rebeccapurple;
+}
+.three{
+  background-color: greenyellow;  
+}
