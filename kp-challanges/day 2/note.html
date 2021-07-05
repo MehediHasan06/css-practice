@@ -1,0 +1,49 @@
+<!-- ! em is a relative unit. It is related to it's parent's. By default, 1em = 16px -->
+
+parent{
+  font-size: 10px;
+}
+child1{
+  font-size: 1em; <!-- 10px -->
+}
+child2{
+  font-size: 2.5em; <!-- 10 * 2.5 px -->
+}
+
+<!-- * em behaves differently in case of margin and padding. The relation is then with the font-size of the element. This is very handyin case of a button. Padding just adjust the font-size. -->
+
+btn--small{
+  font-size: 0.6em;
+  padding: 1em 3em; <!-- 16*0.6px 16*0.6*3 -->
+}
+btn--large{
+  font-size: 1.6em;
+  padding: 1em 3em; <!-- 16*1.6px 16*1.6*3 -->
+}
+<!-- * padding is similar in both cases but thier values are different because of different font-size -->
+
+<!-- ! There arise a compound problem in the case when using "em". Thats why we can use rem = root em. Which can only be change in proportionate with 
+  :root{
+    font-size: 14px;
+  } 
+  or, 
+  html{
+    font-size: 14px;
+  }
+
+  parent{
+    font-size: 24px;
+  }
+  child{
+    font-size: 1rem; /* 1*14px getting the reference of the root*/
+  }
+-->
+
+<!-- * There are some problem can be arised when using em. Which is surely the compound problem. Specially with ul/li tags. So, we shouldn't use font-size with em but with rem. we'll use em to use margin and padding.-->
+
+
+<!-- Resources:  
+  1. https://j.eremy.net/confused-about-rem-and-em/
+  2. rem vs em by Kevil Powell
+  3. https://www.freecodecamp.org/news/css-unit-guide/
+-->
