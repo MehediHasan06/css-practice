@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: #23424a;
+  color: white;
+  padding: 50px 15%;
+}
+
+.intro-content {
+  width: 50%;
+}
+.second-container{
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 50px 5%;
+}
