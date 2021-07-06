@@ -8,18 +8,15 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
+  max-width: 750px;
+}
+.full-bg{
   background: #23424a;
-  color: white;
-  padding: 50px 15%;
+  padding: 10px 0;
 }
 
 .intro-content {
   width: 50%;
-}
-.second-container{
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 50px 5%;
 }
