@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: roboto;
+  color: white;
+  font-size: 1.3rem;
+}
+.container{
+  background-color: #23424A;
+}
+.main{
+  padding: 10em 8em;
+  width: 50%;
+}
+h2{
+  font-size: 3rem;
+}
+p{
+  padding: 1em 0;
+}
+a{
+  background: #38CFD9;
+  border-radius: 31.5px;
+  font-size: 1.5vmax;
+  font-weight: bold;
+  padding: 1em 2em;
+  text-decoration: none;
+  color: black;
+  line-height: 31.25px;
+}
