@@ -74,28 +74,6 @@ header {
     padding: .5em 0;
 }
 
-.nav__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.nav__link {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;;
-}
-
-.nav__link--button {
-    background: #fff;
-    color: #136c72;
-    padding: .25em 1em;
-    border-radius: 10em;
-}
-
-.nav__link:hover {
-    opacity: .75;
-}
 
 
 .hero {
@@ -134,10 +112,28 @@ header {
 }
 
 /* Navigation Bar */
-.nav__list{
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     display: flex;
 }
 .nav__item{
-    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;;
 }
 
+.nav__link--button {
+    background: #fff;
+    color: #136c72;
+    padding: .25em 1em;
+    border-radius: 10em;
+}
+
+.nav__link:hover {
+    opacity: .75;
+}
