@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #first_section{
+      display: flex;
+    }
+    .child_div{
+      height: 500px;
+      width: 50%;  
+      margin: 5px;          
+    }
+    #one{
+      background-color: red;
+      position: relative;
+    }
+    #ones_btn{
+      background-color: yellow;
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      padding: 10px 40px;
+    }
+    #two{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    #twos_child_one{
+      background-color: black;
+      position: relative;
+    }
+    #twos_child_two{background-color: black}
+    .twos_child{
+      height: 49%;
+    }
+    #twos_child_one_btn{
+      background-color: blue;
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      padding: 10px 40px;
+    }
+    .text_align{
+      text-align: center;
+    }
+    #mn_p{
+      width: 80%;
+      margin: 0 auto;
+    }
+    #second_section{
+      display: flex;
+    }
+    .s_child_div{
+      height: 500px;
+      margin: 5px;          
+    }
+    .s_ones_child{
+      height: 49%;
+    }
+    #s_one{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 70%;
+    }
+    #s_two{
+      width: 30%;
+    }
+    #s_ones_child_one{background-color:blanchedalmond ;}
+    #s_ones_child_two{background-color: black;}
+    #s_two{
+      background-color: red;
+    }
+  </style>
+
+  <body>
+    <main>
+      <h2 class="text_align">Categories</h2>
+      <p class="text_align" id="mn_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus fugiat, ipsum vitae repellendus quidem nihil error qui pariatur quae porro ea minima maxime cumque dolores quo fuga eaque velit odit.
+      Quibusdam distinctio cumque, atque cum, esse, nisi harum error repudiandae magnam ratione qui quaerat labore amet. Id hic, modi placeat deleniti, blanditiis rem possimus tempore architecto, consequuntur autem quis aut!</p>
+      <section id="first_section">
+        <div class="child_div" id="one">
+          <button id="ones_btn"></button>
+        </div>
+        <div class="child_div" id="two">
+          <div class="twos_child" id="twos_child_one">
+            <button id="twos_child_one_btn"></button>
+          </div>
+          <div class="twos_child" id="twos_child_two"></div>
+        </div>
+      </section>
+
+      <section id="second_section">        
+        <div class="s_child_div" id="s_one">
+          <div class="s_ones_child" id="s_ones_child_one"></div>
+          <div class="s_ones_child" id="s_ones_child_two"></div>
+        </div>
+        <div class="s_child_div" id="s_two"></div>
+      </section>
+    </main>
+
+  </body>
+</html>
