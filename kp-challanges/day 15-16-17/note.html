@@ -1,0 +1,29 @@
+<!--
+  * Inverse relation with min and max word in media query.
+  * min-width: 'x'px means x or, bigger than x
+  * max-width: 'y'px means y or, less than y
+
+  600px or, bigger
+  @media (min-width: 600px) {}
+
+  600px or, smaller 
+  @media (max-width: 600px) {}
+
+  @media (max-width: 700px) and (min-width: 500px){}
+
+-->
+<!-- Breakpoints -->
+
+  Use 600px, 900px, 1200px, and 1800px if you plan on giving the giant-monitor people something special. 
+ 
+<!-- 
+  https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
+
+-->
+
+<!-- Meta Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+This line ensures that our site is going to be responsive as we want it to be. This is metatag which is looking at my viewport. Without this line media-query will not work.
+
+<!-- 
+metatag is an element of HTML that describes the contents of a Web page, and is placed near the beginning of the page's source code, and used by search engines to index pages by subject. -->
