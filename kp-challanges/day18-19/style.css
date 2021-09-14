@@ -172,6 +172,9 @@ header {
     text-decoration: none;
     color: white;
 }
+.nav__list {
+    padding-left: 0;
+}
 
 @media (min-width: 800px) {
 
