@@ -1,0 +1,175 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2, h4{
+  color: #A59678;
+  margin-bottom: 0;
+}
+p{
+  font-size:1.25rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.btn{
+  background: #A59678;
+  font-size: 1.25rem;
+  padding: 0.75em 1.5em;
+  border-radius: 1.75rem;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text_center{
+  text-align: center;
+}
+.container{
+  padding: 1rem 0;
+}
+li{
+  list-style: none;
+}
+ul{
+  padding-left: 0;
+  margin-top: 0;
+}
+.max__width{
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Navbar */
+#navbar{
+  background: #2E323F;
+}
+.navigation{
+  display: flex;
+  flex-direction: column;  
+}
+.nav__item{
+  list-style: none;
+}
+.nav__item:hover{
+  opacity: 0.75;
+}
+.nav__list{
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero_aside{
+  text-align: center;
+}
+/* Hero */
+.hero{
+  background: #3B4050;
+  color: white;
+}
+.hero__text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Attribute */
+.attributes{
+  background: beige;
+}
+
+/* Break it down */
+.break_it_down{
+  background: ghostwhite;
+  text-align: center;
+  padding: 1rem 0;
+}
+.easy{
+  width: 90%;
+  margin: 0 auto;
+}
+.break_down{
+  width: 90%;
+  margin: 0 auto;
+}
+.break{
+  background: #3B4050;
+  padding: 1rem;
+  color: white;
+  margin: 20px 0;
+}
+
+/* footer */
+footer{
+  background: #2E323F;
+  color: #FFFFFF;
+}
+
+@media (min-width: 700px) {
+  .navigation{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav{
+    display: flex;
+  }
+  .nav__list{
+    flex-direction: row;
+  }
+  .nav__item{
+    margin-right: 10px;
+  }
+  ul{
+    margin-bottom: 0;
+  }
+
+  .hero__text{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hero__text>h1{
+    width: 45%;
+    text-align: left;
+  }
+  .hero__text .hero_aside{
+    width: 45%;
+  }
+
+  .attributes>div{
+    display: flex;
+    column-gap: 25px;
+  }
+
+  .break_break{
+    display: flex;
+    column-gap: 30px;
+    text-align: left;
+  }
+
+  .footer_foot{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .foot_nav{
+    width: 23%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  
+}
